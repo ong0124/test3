@@ -56,6 +56,7 @@ export default defineNuxtConfig({
     },
   },
   nitro: {
+    preset: 'cloudflare', 
     prerender: {
       crawlLinks: false,
       failOnError: false,
